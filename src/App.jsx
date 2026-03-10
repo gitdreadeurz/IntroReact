@@ -8,6 +8,8 @@ import Guess from './pages/Guess'
 import Compteur from './pages/Compteur';
 import Citation from './pages/Citation';
 import Convertisseur from './pages/Convertisseur'
+import AdvancedCounter from './pages/AdvancedCounter'
+import ToDoList from './pages/ToDoList';
 
 function App() {
   const [compteur, setCompteur] = useState(0);
@@ -37,7 +39,9 @@ function App() {
       {/* <Guess /> */}
       {/* < Compteur /> */}
       {/* < Citation /> */}
-      < Convertisseur />
+      {/* < Convertisseur /> */}
+      {/* < AdvancedCounter /> */}
+      < ToDoList />
     </>
   )
 }
