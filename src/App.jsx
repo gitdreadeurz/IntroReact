@@ -10,6 +10,7 @@ import Citation from './pages/Citation';
 import Convertisseur from './pages/Convertisseur'
 import AdvancedCounter from './pages/AdvancedCounter'
 import ToDoList from './pages/ToDoList';
+import UserCard from './pages/UserCard';
 
 function App() {
   const [compteur, setCompteur] = useState(0);
@@ -41,7 +42,8 @@ function App() {
       {/* < Citation /> */}
       {/* < Convertisseur /> */}
       {/* < AdvancedCounter /> */}
-      < ToDoList />
+      {/* < ToDoList /> */}
+      < UserCard />
     </>
   )
 }

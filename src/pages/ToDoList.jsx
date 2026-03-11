@@ -86,7 +86,7 @@ function ToDoList() {
                 return <li key={element.id} 
                 style={{textDecoration : element.done ? 'line-through' : ""}}
                 > {element.title}
-                <input type="checkbox" checked={element.done} onChange={() => {handleChange(element)}} />
+                <input type="checkbox" checked ={element.done} onChange={() => {handleChange(element)}} />
                 {/* <input type="checkbox" value={element.done} onChange={(e) => {(e) => {element.done = !element.done}}} /> */}
                 <button onClick={() => {handleDelete(element)}}>Delete</button>
                 </li>  
