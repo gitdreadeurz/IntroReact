@@ -11,6 +11,8 @@ import Convertisseur from './pages/Convertisseur'
 import AdvancedCounter from './pages/AdvancedCounter'
 import ToDoList from './pages/ToDoList';
 import UserCard from './pages/UserCard';
+import Buttons from './pages/Buttons';
+import Gallery from './pages/Gallery';
 
 function App() {
   const [compteur, setCompteur] = useState(0);
@@ -43,7 +45,8 @@ function App() {
       {/* < Convertisseur /> */}
       {/* < AdvancedCounter /> */}
       {/* < ToDoList /> */}
-      < UserCard />
+      {/* <Buttons/> */}
+      <Gallery/>
     </>
   )
 }
