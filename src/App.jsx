@@ -13,6 +13,7 @@ import ToDoList from './pages/ToDoList';
 import UserCard from './pages/UserCard';
 import Buttons from './pages/Buttons';
 import Gallery from './pages/Gallery';
+import Timer from './pages/Timer';
 
 function App() {
   const [compteur, setCompteur] = useState(0);
@@ -46,7 +47,8 @@ function App() {
       {/* < AdvancedCounter /> */}
       {/* < ToDoList /> */}
       {/* <Buttons/> */}
-      <Gallery/>
+      {/* <Gallery/> */}
+      <Timer />
     </>
   )
 }
