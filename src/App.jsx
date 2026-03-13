@@ -14,6 +14,9 @@ import UserCard from './pages/UserCard';
 import Buttons from './pages/Buttons';
 import Gallery from './pages/Gallery';
 import Timer from './pages/Timer';
+import ContactForm from './pages/ContactForm';
+import Formulaire from './pages/Formulaire';
+import FormulaireWithObject from './pages/FormulaireWithObject';
 
 function App() {
   const [compteur, setCompteur] = useState(0);
@@ -48,7 +51,10 @@ function App() {
       {/* < ToDoList /> */}
       {/* <Buttons/> */}
       {/* <Gallery/> */}
-      <Timer />
+      {/* <Timer /> */}
+      {/* <ContactForm /> */}
+      {/* <Formulaire /> */}
+      <FormulaireWithObject />
     </>
   )
 }
